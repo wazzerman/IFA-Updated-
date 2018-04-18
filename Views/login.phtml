@@ -1,0 +1,59 @@
+<?php require('templates/header.phtml') ?>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h1>Login or Sign Up</h1>
+
+<!--Login form-->
+<form action="">
+    <h2>Login</h2>
+    <div>
+        <label for="username">Username</label> <br>
+        <input type="text" placeholder="Username" name="username"/> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" placeholder="Password" name="password"/>
+
+        <!-- Submit info-->
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+<!--Sign up form-->
+<form action="">
+    <h2>Sign up</h2>
+    <div>
+        <label for="username">Username</label> <br>
+        <input type="text" placeholder="Username" name="username"/> <br>
+
+        <label for="email">Email</label> <br>
+        <input type="text" placeholder="Email" name="username"/> <br>
+
+        <label for="password">Password</label> <br>
+        <input type="password" placeholder="Password" name="password"/> <br>
+
+        <label for="innoSelect">Type of innovator</label> <br>
+        <select name="innoSelect">
+            <option disabled>Select an option</option>
+            <option>Investor</option>
+            <option>Student</option>
+            <option>Funder</option>
+        </select> <br>
+
+        <!-- Submit info-->
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+<?php require('templates/footer.phtml') ?>
+

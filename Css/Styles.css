@@ -1,0 +1,425 @@
+
+.logo {
+
+}
+
+.navbar-default {
+    margin-top: 5px;
+    background-color: #1b1e21;
+}
+
+#topbar {
+
+    background-color: #1b1e21;
+    padding-top: 20px;
+
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px
+}
+
+#social-icons li a {
+    color: #fff;
+}
+
+.joinlinks > a {
+    color: #fff;
+}
+
+.joinlinks > a:hover {
+    color: #f69726;
+    transition: 2s;
+}
+
+.Nav-Bar > li {
+
+    float: left;
+    padding: 10px;
+}
+
+.Nav-Bar > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.Nav-Bar > li > a:hover {
+    color: #f69726;
+    transition: 2s;
+}
+
+.Nav-Bar > ul {
+
+}
+
+h3.MainTitle {
+    size: 40px;
+
+}
+
+.BodyText {
+
+    font-size: 30px;
+}
+
+.LowerBodyText {
+
+    font-size: 20px;
+}
+
+span.HeadGreen {
+
+    color: #12733d;
+}
+
+span.HeadBlue {
+
+    color: #186b93;
+}
+
+span.HeadYellow {
+
+    color: #d4892f
+}
+
+.About-UsNav {
+    background-color: #1b1e21;
+}
+
+.dropdown-menu > li > a {
+    color: #000
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    float: none;
+}
+
+.fill {
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#header {
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 20;
+}
+
+.content-wrapper {
+
+    width: 80%;
+    margin: 4% 10% 5% 10%
+}
+
+.text-wrapper {
+
+    width: 100%;
+    position: relative;
+    margin-top: -35%;
+    color: #fff;
+}
+
+.Buttons {
+
+    padding: 100px;
+}
+
+.center-button {
+
+}
+
+.right-button {
+
+}
+
+.left-button {
+
+}
+
+.Bot-Nav-Bar {
+    float: right;
+
+}
+
+.Bot-Nav-Bar > li {
+
+    float: left;
+    padding: 10px;
+}
+
+.Bot-Nav-Bar > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.Bot-Nav-Bar > li > a:hover {
+    color: #f69726;
+    transition: 2s;
+}
+
+.Bot-Nav-Bar > ul {
+
+}
+
+h4 {
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+h5 {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+hr {
+    background: #fff;
+    border: 0;
+    color: #fff;
+    font-size: 0;
+    height: 2px;
+
+}
+
+.btsp {
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #1b1e21;
+    /*ackground-color: #cf5450;*/
+    margin-top: -15px;
+}
+
+.bot-logo {
+
+    padding-top: 26px;
+}
+
+.Textbox-outside {
+    min-height: 150px;
+    background-color: rgba(27, 30, 33, 0.6);
+
+}
+
+.Text-inside {
+    margin-left: 15px;
+    margin-top: 25px;
+
+}
+
+.Text-inside > p {
+    font-size: 12px;
+}
+
+.Text-inside > h4 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption {
+    top: 45%;
+    bottom: auto;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.signup {
+
+    padding: 200px;
+}
+
+img.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*About Us Page*/
+
+.About-Us {
+
+    padding-top: 250px;
+
+}
+
+h6 {
+
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mgt50px {
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Team h6 {
+
+    text-align: center;;
+    padding: 0;
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Team p {
+
+    margin: 20px 0 0;
+    color: black;
+    padding-left: 20px;
+    border-left: 5px solid #000;
+}
+
+.Member {
+
+    margin: 0 10px;
+    position: relative;
+    min-height: 250px;
+    background: #000;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.Member .imgBox {
+    position: relative;
+}
+
+.Member .imgBox img {
+    width: 100%;
+    transition: 5s;
+}
+
+.Member:hover .imgBox img {
+    transform: scale(1.5);
+}
+
+.Member .details {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    transition: .5s;
+}
+
+.Member:hover .details {
+    bottom: 0px;
+}
+
+.Member .details h3 {
+
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: 500;
+    text-align: right;
+}
+
+.Member .details h3 span {
+
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #f00;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: -2px;
+}
+
+.Member .details ul {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+}
+
+.Member .details ul li {
+    list-style: none;
+}
+
+.Member .details ul li a {
+    padding: 0 10px;
+    color: #fff;
+
+}
+
+.Member .details ul li a .fa {
+    transition: .5s;
+
+}
+
+.Member .details ul li a:hover .fa {
+    transform: rotateY(360deg);
+    color: #F00;
+
+}
+
+.form-horizontal {
+
+    padding-top: 200px;
+}
+
+.Logo-Contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center {
+
+    text-align: left;
+}
+
+.centre_text {
+    text-align: center;
+}
+
+span.Bold {
+    font-weight: bold;
+}
+
+#Center_Logo img {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
